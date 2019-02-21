@@ -1,0 +1,133 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+	border: 1px solid black;
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+
+body {
+	display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "header"
+      "topnav"
+      "content"
+      "footer";
+}
+
+.adalgrein {
+	display: grid;
+	grid-template-columns: 20% auto 20%;
+	grid-template-areas:
+    	"vinstri midja haegri";
+}
+.topnav {
+  grid-area: topnav;
+}
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.adalgrein {
+  grid-area: content;
+}
+
+.midja{
+  grid-area: midja;
+}
+
+.haegri {
+  grid-area: haegri;
+}
+
+.vinstri {
+  grid-area: vinstri;
+}
+
+header,
+.vinstri,
+.haegri {
+  padding: 1em;
+}
+
+.topmenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ 	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    top: 0;
+}
+
+.topmenu li {
+  border: 1px solid black;
+  border-width: 1px 0 1px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.topmenu a {
+  display: block;
+  color: blue;
+  text-decoration: none;
+  text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+.footermenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ 	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    top: 0;
+}
+
+.footermenu li {
+  border: 1px solid black;
+  border-width: 1px 0 0 0;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.footermenu a {
+  display: block;
+  color: blue;
+  text-decoration: none;
+  text-align: center;
+}
+
+.jonas {
+	margin: 1em;
+	padding: 1em;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.vinstri {
+	border: solid black;
+	border-width: 0 1px 0 0;
+}
+
+.midja {
+	padding: 1em;
+}
+
+.haegri {
+	border: solid black;
+	border-width: 0 0 0 1px;
+}
