@@ -1,0 +1,43 @@
+	body {
+		border: 1px solid blue;
+		width: 50em;
+		padding: 10px;
+		
+	}
+
+	h1 {
+		color: blue;
+		text-align: center;		
+	}
+
+	h2 {
+		color: darkred;
+	}
+
+	.lorem {
+		text-align: center;
+	}
+
+	.ipsum {
+		text-align: center;
+	}
+
+	hr {
+		margin: 10px;
+	}
+
+	strong {
+		color: red;
+	}
+
+	em {
+		color: blue;
+	}
+
+	ul li {
+		color: green;
+	}
+
+	.imagine {
+		margin-left: 60px;	
+	}
