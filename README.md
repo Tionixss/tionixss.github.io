@@ -1,2 +1,3 @@
-# tionixss.github.io 
-Vef1vg Verkefni
+# tionixss.github.io
+
+[Verkefni 1](/verkefni1_v20/vefsida.html)
