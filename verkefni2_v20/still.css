@@ -1,0 +1,178 @@
+*{
+	box-sizing: border-box;
+}
+
+.boxmodel1 {
+	border: 2px solid green; 
+}
+
+.boxmodel2 {
+	border: 2px solid green;
+	color: red;
+}
+
+.boxmodel3 {
+	border: 4px solid blue;
+	border-style: dashed;
+	padding: 1em;
+	color: blue;
+}
+.boxmodeldiv1 {
+	border: 5px solid red;
+	padding: 3em;
+}
+.boxmodeldiv2{
+	border: 5px solid red;
+	padding: 3em;
+}
+
+.li1 {
+	border: 3px dashed green;
+	padding: 1em;
+	margin: 1em;
+
+}
+
+.li2 {
+	border: 3px dashed green;
+	padding: 1em;
+	margin: 1em;
+
+}
+.li3 {
+	border: 3px dashed green;
+	padding: 1em;
+	margin: 1em;
+
+}
+.li4 {
+	border: 3px dashed green;
+	padding: 1em;
+	margin: 1em;
+
+}
+.ul1 li{
+	margin:1em;
+	padding:1em;
+	border: 3px dashed green;
+}
+
+.ul2 li{
+	color: red;
+	display: inline;
+	margin: 1em;
+	padding: 1em;
+	border: 3px dashed blue;
+}
+
+.ul2 {
+	width: 1000px;
+}
+
+.ul3 li {
+	display: inline-block;
+	padding: 1em;
+	margin: 1em;
+	border: 3px dashed red;
+}
+
+.ul3 {
+	width: 800px;
+}
+
+
+.box1 {
+	float: left;
+	border: 1px solid black;
+	width: 50%
+}
+
+aside {
+	float: right;
+
+	border: 1px solid black;
+
+	width: 50%
+}
+
+.imgR {
+	float: right;
+}
+
+.ok {
+	border: 1px solid black;
+}
+.athugid {
+	background: yellow;
+}
+
+.bigL {
+	font-size: 4em;
+}
+	
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+}
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow;
+	width: 1250px; 
+}
+.raudur {
+	background-color: red;
+	width: 1250px; 
+}
+.graenn {
+	background-color: lime;
+	width: 1250px;
+}
+.blar {
+	background-color: cyan;
+	width: 1250px;
+}
+.box {
+	font-size: 1.2em;
+	height: 5em;
+}
+
+.row {
+	display: flex;
+	flex-flow: row;
+	order: n;
+	text-align: center;
+
+}
+
+.row p {
+	margin-top: 4em;
+}
+
+.col {
+	display: flex;
+	flex-flow: column;
+	order: n;
+	text-align: center;
+}
+
+.col p {
+	margin-top: 4em;
+}
