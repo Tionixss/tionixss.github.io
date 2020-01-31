@@ -1,0 +1,85 @@
+
+* {
+	box-sizing: border-box;
+}
+
+.Grid {
+	display: grid;
+}
+
+header {
+	border: 1px solid black;
+	text-align: center;
+	padding-bottom: 20px;
+	grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+	
+
+}
+
+header p {
+	font-size: 2em;
+	font-family: cursive;
+	color: blue;
+}
+
+nav {
+	border: 1px solid black;
+	display: flex;
+	flex-flow: row;
+	padding: 20px;
+	grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+	
+}
+
+nav a {
+	margin-left: 250px; 
+}
+
+main {
+	border: 1px solid black;
+	text-align: center;
+	grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+	
+}
+
+article {
+	border: 1px solid black;
+	grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+	
+}
+
+aside {
+	border: 1px solid black;
+	grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+}
+
+footer {
+	border: 1px solid black;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5; 
+	padding: 20px;
+
+}
+
+footer a {
+	padding: 150px;
+}
